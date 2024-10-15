@@ -1,0 +1,211 @@
+body {
+  background-color: #dddcdc;
+}
+h1,
+h2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
+  border: solid 0.5px rgb(218, 218, 218);
+}
+.one{
+  margin: 15px;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+pre {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+.img-container img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.hdr {
+  margin: 5px;
+  border-radius: 10px;
+}
+
+
+header {
+  background-image: url('../images/fondo1.png');
+  height: 10em;
+  border-radius: 10px;
+}
+
+.logo {
+  height: 60%;
+  margin: 35px;
+}
+
+.nave {
+  background-color: #333333;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.nav-link {
+  flex: 1;
+  text-align: left;
+}
+
+.principal {
+  background-image: url('../images/fondo3.png');
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.h11 {
+
+  background-color: #dfdfdf;
+  padding: 15px;
+  border-radius: 50px;
+  border: solid 0.5px black;
+
+}
+
+.h111 {
+  margin: 35px;
+  border: solid 0.5px rgb(182, 181, 181);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.rou {
+  margin-bottom: 35px;
+}
+
+.ha3 {
+  color: #333232;
+}
+
+
+.sub {
+  text-decoration: underline;
+}
+
+.jover:hover {
+  background-color: #525252;
+  border-radius: 20px;
+}
+.fu{
+  height: 50px;
+}
+.anrs{
+  height: 30px;
+}
+
+.logosociales {
+  margin-bottom: 20px;
+}
+
+.ro {
+  display: flex;
+  justify-content: center;
+}
+
+.tyf {
+  margin-bottom: 40px;
+}
+
+.mx {
+  max-width: 400px;
+}
+
+.boton {
+  border: solid 0.5px #34b3ba;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: #34b3ba;
+  font-size: 1rem;
+  width: 50%;
+}
+
+.jo:hover {
+  background-color: #123d3f;
+  color: white;
+}
+
+.color {
+  background-color: #cceaec;
+  width: 70%;
+  border-radius: 30px;
+}
+
+.color:hover {
+  background-color: white;
+}
+
+.borde {
+  border: solid 0.5px #123d3f;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+#canvas {
+  color: #ea6c03;
+
+}
+
+footer .logo-footer {
+  display: block;
+  margin: auto;
+
+}
+
+.bordefuter {
+  margin: 5px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .img-container {
+    text-align: center;
+  }
+
+  .img-container img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .video1 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .frm {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+
+  .frm iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+}
